@@ -17,13 +17,12 @@ const randomMessage = ( arr ) => {
   return arr[randomNumber];
 }
 
-
+/* TODO: change handleButtonClick name to something more appropriate */
 const handleButtonClick = ( data ) => {
-  /*
-    Test to see if the button is selected
-    console.log( event.target );
+  /** 
+   * Test to see if the button is selected
+   * console.log( event.target );
   */
-  // message.textContent = `hello world`;
   message.textContent = randomMessage( data );
 }
 
