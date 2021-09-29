@@ -8,7 +8,6 @@ const messages = [
   'You only live once, but if you do it right, once is enough. - Mae West',
   'Tough times never last but tough people do. - Robert H. Schuller',
   'Whether you think you can or you think you can’t, you’re right. - Henry Ford'
-
 ]
 
 const randomMessage = ( arr ) => {
@@ -17,8 +16,7 @@ const randomMessage = ( arr ) => {
   return arr[randomNumber];
 }
 
-/* TODO: change handleButtonClick name to something more appropriate */
-const handleButtonClick = ( data ) => {
+const produceMessage = ( data ) => {
   /** 
    * Test to see if the button is selected
    * console.log( event.target );
@@ -26,4 +24,4 @@ const handleButtonClick = ( data ) => {
   message.textContent = randomMessage( data );
 }
 
-handleButtonClick(messages);
+produceMessage(messages);
