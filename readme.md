@@ -11,3 +11,7 @@ This quote generator is going generate inspirational messages, however, you’re
 To make this program truly random, the message that it outputs is going to be made up of at least three different pieces of data.
 
 The project kanban board can be found [here](https://trello.com/b/LRDe4bh2/message-generator)
+
+### Screenshot of project
+
+![alt text](https://github.com/lukeashtonjohnson/Random-Quote-Generator/blob/main/screenshot.png?raw=true "Screenshot of project")
